@@ -11,9 +11,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // step-4 verify email and password
     if(email === 'miras@gmail.com' && password === 'miras'){
         console.log("valid User");
+        window.location.href = 'bank.html';
     }
     else{
-        console.log("invalid user");
+        alert('Worn Email or password Please input valid info')
     }
 
 })
