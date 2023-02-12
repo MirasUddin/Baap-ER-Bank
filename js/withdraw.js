@@ -32,7 +32,7 @@ document.getElementById('btn-withdraw').addEventListener('click',function(){
 
     // step-6
     if(newWithdrawAmount > previousBalaceTotal ){
-        alert('tk nai')
+        alert('Porjapto balace nai')
         return;
     }
     
